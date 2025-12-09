@@ -4,21 +4,21 @@ All projects were developed as part of my independent study while preparing for 
 Contents
 1. Machine Learning Projects
 
-Malicious Traffic Classifier
+Malicious Traffic Classifier: 
 Supervised ML model trained on real-world network traffic datasets to distinguish between benign and malicious behaviour.
 Includes preprocessing, feature engineering, model training, evaluation, and future deployment pipeline.
 
-Titanic Survival Predictor
+Titanic Survival Predictor: 
 A simple Logistic Regression model predicting passenger survival based on demographic and contextual variables.
 Focused on understanding data cleaning and binary classification.
 
 2. Cybersecurity Tools
 
-Port Scanner (Python + sockets)
+Port Scanner (Python + sockets): 
 Custom-built scanner capable of detecting open ports and inferring probable services.
 Includes exception handling, latency measurement and multi-target support.
 
-(Upcoming) Network Packet Interceptor (Scapy)
+(Upcoming) Network Packet Interceptor (Scapy): 
 A tool for capturing, parsing, and analysing packets in real time.
 Designed to integrate with an AI model for anomaly detection.
 
