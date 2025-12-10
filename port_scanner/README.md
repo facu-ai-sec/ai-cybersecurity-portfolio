@@ -1,11 +1,11 @@
-  Network Scanner & OS Fingerprinting Tool (Python + Scapy)
+📌 Network Scanner & OS Fingerprinting Tool (Python + Scapy)
 
 
 This project is a lightweight network scanner built in Python, designed to detect open ports, identify services, grab banners, and estimate the target operating system using ICMP TTL analysis.
 
 It combines Scapy, socket programming, and basic fingerprinting techniques to provide quick reconnaissance capabilities.
 
-Features
+🔍 Features
 
 - Port Scanning
 
@@ -19,7 +19,7 @@ Features
 
    
 
-OS Detection
+🔍 OS Detection
 
 Uses ICMP Echo Reply TTL values to estimate the system type:
 
@@ -43,7 +43,7 @@ Open ports are highlighted using termcolor for readability.
 - Execution Time Measurement: 
 Displays the total running time of the scanning process.
 
-- Requirements
+🔍 Requirements
 
   - Install dependencies:
 
@@ -52,9 +52,9 @@ Displays the total running time of the scanning process.
     - pip install termcolor
 
 
-Note: Scapy may require administrator/root privileges to send ICMP packets on some systems.
+(Scapy may require administrator/root privileges to send ICMP packets on some systems).
 
-- Usage:
+🔍 Usage:
 
   - Run the script:
 
@@ -73,7 +73,7 @@ Ports:
 
 ----------------------------------------------------------------------------------
 
-Example:
+🔍 Example:
 
 - Enter targets: 192.168.1.10
 
@@ -91,7 +91,7 @@ Scan completed in 2.41 seconds
 
 ----------------------------------------------------------------------------------
 
-Why This Project?
+🔍 Why This Project?
 
 This tool was developed to demonstrate:
 
@@ -109,9 +109,10 @@ Its goal is to serve as part of a Cybersecurity + AI portfolio, showing foundati
 
 ----------------------------------------------------------------------------------
 
-Disclaimer:
+🔍 Disclaimer:
 
 This tool is intended strictly for educational and ethical security research.
 Do NOT scan systems without explicit permission.
 Unauthorized scanning may violate local laws and regulations.
+
 
