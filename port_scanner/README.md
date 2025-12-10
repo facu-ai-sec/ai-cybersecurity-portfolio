@@ -109,11 +109,12 @@ Its goal is to serve as part of a Cybersecurity + AI portfolio, showing foundati
 
 ----------------------------------------------------------------------------------
 
-🔍 Disclaimer:
+Disclaimer:
 
 This tool is intended strictly for educational and ethical security research.
 Do NOT scan systems without explicit permission.
 Unauthorized scanning may violate local laws and regulations.
+
 
 
 
