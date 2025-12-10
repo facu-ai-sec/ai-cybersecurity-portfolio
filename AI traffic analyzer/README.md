@@ -56,6 +56,8 @@ Therefore, the script included in this repository is meant as a demonstration pr
   - Each intercepted packet is sent to the ML model, which predicts a label (e.g., Benign, DoS, PortScan, etc.).
 Installation
 
+----------------------------------------------------------------------------------
+
 🔍 Install required dependencies:
 
   - pip install scapy
@@ -70,7 +72,7 @@ Installation
 
   - python script.py
 
-
+----------------------------------------------------------------------------------
 
 
 Disclaimer
@@ -78,3 +80,4 @@ Disclaimer
 This project is intended strictly for educational and research purposes.
 Do not use it for unauthorized network monitoring.
 Always ensure you have permission before capturing or inspecting traffic.
+
