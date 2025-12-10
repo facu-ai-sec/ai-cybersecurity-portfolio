@@ -34,7 +34,6 @@ print("Testing accuracy:", modelo.score(X_test, y_test))
 # -------------------------------------------------------
 
 # Convert a Scapy packet to a feature vector
-# (Simplified — must match CICIDS feature structure for real use)
 
 def extract_features(pkt):
     features = {}
@@ -84,6 +83,7 @@ def classify_packet(pkt):
 def start_sniffing():
     print("Sniffing network packets... (Ctrl + C to stop)")
     sniff(prn=classify_packet, store=0)
+
 
 
 start_sniffing()
