@@ -1,0 +1,6 @@
+Requirements
+
+- Python 3.8 or higher
+- opencv-python
+- numpy
+- tensorflow (for deep learning models)
