@@ -1,4 +1,4 @@
-📌 Network Intrusion Detection Prototype (Python + Scapy + Machine Learning)
+  Network Intrusion Detection Prototype (Python + Scapy + Machine Learning)
 
 This repository contains a proof-of-concept intrusion detection script that combines:
 
@@ -10,12 +10,12 @@ This repository contains a proof-of-concept intrusion detection script that comb
 
 The project demonstrates how real-time traffic can be captured and passed to a trained model for classification.
 
-🔍 Dataset Source  
+  Dataset Source  
 
 The dataset used as reference for this prototype is CICIDS2017, a well-known public intrusion detection dataset available on the internet through various research archives and repositories.
 The dataset was not created by me, it was downloaded from public sources exclusively for educational purposes.
 
-🔍 Important Notice
+  Important Notice
 
 Due to the extremely large size of the CICIDS2017 dataset, my personal computer was not capable of fully loading, processing, or training a complete machine learning model with all available features.
 Therefore, the script included in this repository is meant as a demonstration prototype, showing the intended workflow:
@@ -32,7 +32,7 @@ Therefore, the script included in this repository is meant as a demonstration pr
 
 - Send packet features to the model for classification
 
-🔍 Features of the Prototype
+  Features of the Prototype
 - Machine Learning Pipeline
 
   - Label encoding
@@ -58,7 +58,7 @@ Installation
 
 ----------------------------------------------------------------------------------
 
-🔍 Install required dependencies:
+  Install required dependencies:
 
   - pip install scapy
   - pip install pandas
@@ -66,7 +66,7 @@ Installation
 
 (Scapy may require administrator or root permissions depending on the operating system).
 
-🔍 Usage
+  Usage
 
 - Run the script:
 
@@ -80,4 +80,5 @@ Disclaimer
 This project is intended strictly for educational and research purposes.
 Do not use it for unauthorized network monitoring.
 Always ensure you have permission before capturing or inspecting traffic.
+
 
