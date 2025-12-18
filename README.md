@@ -31,7 +31,7 @@ Technologies Used
 
 - Python
 
-- Pandas, NumPy, Scikit-Learn
+- Pandas, NumPy, Scikit-Learn, os, shutil, etc.
 
 - Matplotlib / Seaborn
 
