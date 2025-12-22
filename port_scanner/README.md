@@ -1,5 +1,4 @@
 # Network Scanner & OS Fingerprinting Tool  
-### Python · Scapy
 
 ---
 
@@ -97,3 +96,4 @@ Ports: number of ports to scan
 
 This tool is intended strictly for educational and ethical security research.
 Do not scan systems without explicit authorization. Unauthorized scanning may violate local laws and regulations.
+
