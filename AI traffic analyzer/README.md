@@ -1,84 +1,75 @@
-  Network Intrusion Detection Prototype (Python + Scapy + Machine Learning)
+# Network Intrusion Detection Prototype  
+### Python · Scapy · Machine Learning
 
-This repository contains a proof-of-concept intrusion detection script that combines:
+This repository contains a proof-of-concept intrusion detection prototype that combines basic machine learning techniques with real-time network packet interception using Scapy.
 
-- Basic Machine Learning classification (Logistic Regression)
+The project demonstrates how live network traffic can be captured, processed, and passed to a trained model for classification in a simplified but realistic workflow.
 
-- Packet interception using Scapy
+---
 
-- A simplified feature extractor for live network packets
+## Overview
 
-The project demonstrates how real-time traffic can be captured and passed to a trained model for classification.
+This prototype integrates the following components:
 
-  Dataset Source  
+- Machine Learning classification using **Logistic Regression**
+- Live packet interception with **Scapy**
+- Simplified feature extraction from network packets
+- Real-time packet classification using a trained model
 
-The dataset used as reference for this prototype is CICIDS2017, a well-known public intrusion detection dataset available on the internet through various research archives and repositories.
-The dataset was not created by me, it was downloaded from public sources exclusively for educational purposes.
+The goal is not to provide a production-ready IDS, but to illustrate the end-to-end logic behind network-based intrusion detection systems.
 
-  Important Notice
+---
 
-Due to the extremely large size of the CICIDS2017 dataset, my personal computer was not capable of fully loading, processing, or training a complete machine learning model with all available features.
-Therefore, the script included in this repository is meant as a demonstration prototype, showing the intended workflow:
+## Dataset Source
 
-- Load dataset (conceptually)
+The dataset used as a reference for this prototype is **CICIDS2017**, a well-known public intrusion detection dataset available through academic and research repositories.
 
+The dataset was **not created by me** and was obtained from public sources exclusively for **educational purposes**.
+
+---
+
+## Important Notice
+
+Due to the extremely large size of the CICIDS2017 dataset, my personal computer was not capable of fully loading, processing, or training a complete machine learning model using all available features.
+
+As a result, the script included in this repository is intended as a **demonstration prototype**, showing the intended workflow rather than a full-scale implementation.
+
+Conceptual workflow:
+
+- Load dataset (conceptual reference)
 - Encode labels
-
-- Train a lightweight model
-
-- Build a Scapy packet interceptor
-
-- Extract simplified features
-
+- Train a lightweight machine learning model
+- Intercept live packets using Scapy
+- Extract simplified packet features
 - Send packet features to the model for classification
 
-  Features of the Prototype
-- Machine Learning Pipeline
+---
 
-  - Label encoding
+## Features of the Prototype
 
-  - Train/test split
+### Machine Learning Pipeline
+- Label encoding  
+- Train/test split  
+- Logistic Regression classifier  
+- Accuracy evaluation  
 
-  - Logistic Regression classifier
+### Real-Time Packet Sniffing
+- Intercepts live network packets using Scapy  
 
-  - Accuracy printout
+### Feature Extraction
+- Converts each packet into a simplified numerical feature vector  
 
-- Real-Time Packet Sniffing
+### Packet Classification
+- Each intercepted packet is classified by the ML model  
+- Example labels include: *Benign, DoS, PortScan*, etc.
 
-  - Uses Scapy to intercept live packets from the network.
+---
 
-- Feature Extraction
+## Installation
 
-  - Converts each packet into a simplified feature vector. 
+Install the required dependencies:
 
-- Packet Classification
-
-  - Each intercepted packet is sent to the ML model, which predicts a label (e.g., Benign, DoS, PortScan, etc.).
-Installation
-
-----------------------------------------------------------------------------------
-
-  Install required dependencies:
-
-  - pip install scapy
-  - pip install pandas
-  - pip install scikit-learn
-
-(Scapy may require administrator or root permissions depending on the operating system).
-
-  Usage
-
-- Run the script:
-
-  - python script.py
-
-----------------------------------------------------------------------------------
-
-
-Disclaimer
-
-This project is intended strictly for educational and research purposes.
-Do not use it for unauthorized network monitoring.
-Always ensure you have permission before capturing or inspecting traffic.
-
-
+```bash
+pip install scapy
+pip install pandas
+pip install scikit-learn
