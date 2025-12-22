@@ -1,46 +1,62 @@
-This repository showcases a collection of projects that explore the intersection between Artificial Intelligence, Cybersecurity, and Python development.
-All projects were developed as part of my independent study while preparing for university programs in Computer Science, Artificial Intelligence, and Information Security.
+This repository contains a collection of independent Python projects developed for learning, experimentation, and portfolio purposes. The projects cover a range of topics including automation, data analysis, machine learning, computer vision, and basic cybersecurity tools.
 
-Contents
+All scripts were created as part of my self-directed study while preparing for university programs related to Computer Science, Artificial Intelligence, and Information Security. Each project focuses on applying theoretical concepts to practical, real-world problems.
 
-1. Machine Learning Projects
+------------------------------------------------------------------------------------------------------------------------
 
-Malicious Traffic Classifier + Network Packet Interceptor (Scapy): 
-A tool for capturing, parsing, and analysing packets in real time, with a supervised ML model trained on real-world network traffic datasets to distinguish between benign and malicious behaviour.
-Includes preprocessing, feature engineering, model training, evaluation, and future deployment pipeline.
+Repository Structure
 
+The repository is organized into separate folders, each representing an individual project or experiment. Projects vary in scope and complexity, ranging from small utility scripts to more complete prototypes involving data preprocessing, model training, or system-level interaction.
 
-2. Cybersecurity Tools
+The contents include, but are not limited to:
 
-Port Scanner (Python + sockets): 
-Custom-built scanner capable of detecting open ports and inferring probable services.
-Includes exception handling, latency measurement and multi-target support.
+- Python automation scripts for file and data processing
 
+- Data analysis and machine learning experiments
 
-3. Additional Experiments
+- Network and cybersecurity-related tools
 
-Explorations with OpenCV, SVM classifiers, and real-time face recognition.
-Small utilities developed while learning Python fundamentals and network programming.
+- Computer vision prototypes using OpenCV
 
-4. More projects coming soon!
+- Exploratory projects developed while learning new libraries and concepts
+
+- Projects are documented individually within their respective folders when necessary.
+
+------------------------------------------------------------------------------------------------------------------------
 
 Goals
-This portfolio reflects my long-term academic goal of studying Artificial Intelligence abroad and later specialising in Cybersecurity, aiming to build technology capable of increasing digital security and supporting real-world problem solving.
+
+This repository serves as a technical portfolio to demonstrate:
+
+- Practical use of Python 
+
+- Problem-solving and logical structuring of code
+
+- Progressive learning through increasingly complex projects
+
+- Interest in Artificial Intelligence and Cybersecurity as academic and professional paths
+
+The long-term goal is to pursue higher education abroad and contribute to the development of technology focused on real-world impact and digital security.
+
+------------------------------------------------------------------------------------------------------------------------
 
 Technologies Used
 
 - Python
 
-- Pandas, NumPy, Scikit-Learn, os, shutil, etc.
+- Pandas, NumPy, Scikit-learn
 
-- Matplotlib / Seaborn
+- OpenCV
 
-- Scapy
+- Requests, sockets, Scapy
 
-- Socket Programming
+- os, shutil and standard libraries
 
-- Jupyter / Google Colab
+- Jupyter Notebook / Google Colab
 
+More projects and experiments will continue to be added over time.
+
+------------------------------------------------------------------------------------------------------------------------
 
 Contact: 
 If you would like to know more about any project, feel free to reach out.# ai-cybersecurity-portfolio
