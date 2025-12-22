@@ -1,65 +1,54 @@
-This project is a simple yet practical file organization tool built in Python.
+# File Organizer Tool (Python)
+
+This project is a simple yet practical file organization tool built in Python.  
 It automatically scans a target directory and sorts files into subfolders based on their file extension.
 
-The goal of this project is to demonstrate file system automation using Python’s standard libraries, focusing on clarity, correctness, and real-world usability.
+The main goal of this project is to demonstrate file system automation using Python’s standard libraries, with an emphasis on clarity, correctness, and real-world usability.
 
-Features
+---
 
-- Iterates through all files in a target directory
+## Features
 
-- Detects file extensions using os.path.splitext
+- Iterates through all files in a target directory  
+- Detects file extensions using `os.path.splitext`  
+- Automatically moves files into extension-based folders  
+- Uses safe file operations with `shutil.move`  
+- Easily extendable to support additional file types  
 
-- Automatically moves files into extension-based folders
+---
 
-- Uses safe file operations with shutil.move
-
-- Easily extendable to support additional file types
-
-Supported extensions in this example:
+## Supported Extensions (Example)
 
 | File Extension | Destination Folder |
-|----------------|--------------------|
-| .py            | python/            |
-| .csv           | csv/               |
-| .jpg           | jpg/               |
-| .yml           | yml/               |
+|---------------|--------------------|
+| `.py`         | `python/`          |
+| `.csv`        | `csv/`             |
+| `.jpg`        | `jpg/`             |
+| `.yml`        | `yml/`             |
 
+---
 
+## Example
 
-Example
+- `before_structure.png` shows all files mixed in a single directory  
+- `after_structure.png` shows the same directory after execution, with files organized by extension  
 
-- before_structure.png shows all files mixed in a single directory
+---
 
-- after_structure.png shows the same directory after execution, with files organized by extension
+## Requirements
 
-Requirements
+- Python 3.x  
+- Standard libraries only (`os`, `shutil`)  
 
-- Python 3.x
+No external dependencies are required.
 
-- Standard libraries only (os, shutil)
+---
 
-No external dependencies required.
+## Usage
 
-Usage
+1. Place the script inside the directory you want to organize, or configure it to point to the target directory.  
+2. Ensure the destination folders exist (or create them beforehand).  
+3. Run the script:
 
-Place the script inside or point it to the directory you want to organize
-
-Ensure the destination folders exist (or create them beforehand)
-
-Run the script:
-
+```bash
 python organizer.py
-
-
-The files will be moved automatically to their corresponding folders.
-
-Notes
-
-This script was designed for educational and automation purposes.
-It can be easily extended to:
-
-- create folders dynamically
-
-- handle unknown extensions
-
-- add logging or dry-run functionality
